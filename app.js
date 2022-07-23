@@ -9,7 +9,7 @@ const PORT = 3000;
 //라우팅
 const home = require("./routes/home");
 
-
+//정을영천재 
 //앱 세팅 
 app.set("views","./views");
 app.set("view engine", 'ejs');
