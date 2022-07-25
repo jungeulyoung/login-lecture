@@ -9,7 +9,7 @@ const id = document.querySelector("#id"),
     function login() {
         const req = {
             id: id.value,
-            paword: psword.value,
+            psword: psword.value,
         };
 
         console.log(req, JSON.stringify(req))
@@ -22,8 +22,9 @@ const id = document.querySelector("#id"),
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(req),
-        });
-        
+        })
+        .then((res) => res.json())
+        .then((res) => console.log(res))
     }
 
 
