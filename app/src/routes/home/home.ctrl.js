@@ -1,20 +1,6 @@
 "use strict";
 
-<<<<<<< HEAD
-const home = (req, res) => {
-    res.render("home/index");
-};
-
-const login = (req, res) => {
-    res.render("home/login");
-};
-
-module.exports = {
-    home, 
-    login,
-};            // object 형식의  디폴트가   ex {key : value}   --->>> { hello : hello} 로 되어 있음 
-                                //        {         
-=======
+                          //        {         
 const User = require("../../models/User");
 
 const output = {
@@ -47,7 +33,6 @@ module.exports = {
     process,
 };            // object 형식의  디폴트가   ex {key : value}   --->>> { hello : hello} 로 되어 있음 
                                 //        {
->>>>>>> 7147acbbf4fb14374d7d2638687ac9de238846b7
                                 //         hello: value
                                 //         login: value
                                 //        }
